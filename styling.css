@@ -1,0 +1,185 @@
+body{
+    font: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 1050px;
+    /* border: 1px solid grey; */
+    /* height: 100px; */
+    margin: 0 auto;
+}
+#header{
+    height: 100px;
+    padding: 10px 0;
+}
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: slateblue;
+    text-decoration: none;
+}
+#brand{
+    float: left;
+}
+#searchBox{
+    float: right;
+    background: linear-gradient(rgb(93, 242, 93), rgb(234, 234, 71));
+    width: 400px;
+    height: 50px;
+    padding: 15px 15px 0 15px;
+    margin: 15px 0;
+}
+.text{
+    float: left;
+    width: 200px;
+    color : rgb(247, 118, 5);
+    font-size: 14px;
+    padding: 5px;
+    /* background: white url(images.png) right center no-repeat; */
+    border: 1px solid #C8D03E;
+}
+.submit{
+    float: right;
+    color: white;
+    background: purple;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.clear{
+    clear: both;
+}
+ul {
+    list-style: none;      
+    /* unordered list se bullets hatane k liye */
+}
+/* ul li a {
+    text-decoration: none;
+} */
+#menu{
+    height: 80px;
+    background: linear-gradient(rgb(232, 232, 38), rgb(240, 90, 90));
+    padding: 7px 0;
+    /* height: 50px; */
+}
+#menu ul li{
+    float: left;
+    padding: 15px 30px;
+    margin-left: 10px;
+
+    /* important */
+    height: 20px;
+    border-right: 1px solid black;
+}
+#menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 30px;
+    /* important */
+    /* transition: font-size 1s linear; */
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+/* to remove the last line */
+/* important */
+#menu ul li:last-child {
+    border-right: none;
+}
+
+/* important */
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: tomato;
+}
+
+#introduction{
+    background: linear-gradient(#E5F2BB, #B7E952);
+    height: 300px;
+    /* border :10px; */
+    padding: 30px;
+    margin: 16px 0;
+}
+/* accessing the contents inside it */
+#introduction h3{
+    font-size: 45px;
+    font-weight: normal;
+    color: #316901;
+}
+#introduction p{
+    font-size: 22px;
+    font-weight: normal;
+    color: #1b2b0d;
+    text-align: justify;
+}
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #baf46f;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px 30px;
+}
+.sidebar h3{
+    color: rgb(150, 8, 150);
+    font-size: 25px;
+}
+.sidebar ul li a{
+    /* list-style: none; */
+    text-decoration: none;
+    font-size: 22px;
+    transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    font-size: 30px; 
+    font-weight: bold; 
+    text-decoration: none;
+}
+/* ul{
+    list-style: none;
+} */
+/* .sidebar ul li{
+    list-style: none;
+} */
+#leftbar{
+    float: left;
+}
+#leftbar ul{
+    padding-top: 8px;
+}
+#leftbar ul li a{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    /* list-style-image: url(arrow.png); */
+}
+/* #leftbar ul li{
+    list-style: none;;
+} */
+
+#rightbar{
+    float: right;
+}
+#rightbar ul li a{
+    padding-bottom: 6px;
+}
+
+/* Important  */
+/* list style is for bullets */
+/* text decoration is for removing links */
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 10px 30px;
+    margin-top: 10px;
+}
